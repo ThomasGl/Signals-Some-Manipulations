@@ -2,9 +2,7 @@
 
 **Let's Get Started**
 
-## Road Map
-
-### Start: 
+## Start: 
 
 Let's assume we are given a signal x(t), continuous and differentiable.
 
@@ -20,7 +18,6 @@ Also let us define a sampling interval T, and we will get a discrete signal x. F
 
 Sampling Example:
 
-
 In signal processing some tools are introduced for various reasons and to assist in different scenarios. Some of which are: Upsampling, Downsampling, Interpolating and Decimating.
 
 Their definitions are given as:
@@ -35,10 +32,11 @@ Downsampling:
 
 Interpolating: 
 
-
+We design a system using upsampling, such is given as:
 
 Decimating:
 
+We design a system using downsampling, given by:
 
 Now let's take an <em>e.g.</em>
 
