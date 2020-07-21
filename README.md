@@ -48,7 +48,10 @@ That can be written as:
 
  Now we could run the simulation on MATLAB and Python and get:
 
-[MATLAB]:
+[MATLAB]: remark it was developed using of the MATLAB Signal Processing Toolbox
 
+![](MATLAB/Graphs/matlab_full.PNG)
 
-[Python]:
+[Python]: remark it was developed using numpy, matplotlib and scipy libraries
+
+![](python/Graphs/python_full.png)
