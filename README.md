@@ -1,8 +1,6 @@
 # Signals-and-some-manipulations
 
-**Let's Get Started**
-
-## Start: 
+## Introduction: 
 
 Let's assume we are given a signal x(t), continuous and differentiable.
 
