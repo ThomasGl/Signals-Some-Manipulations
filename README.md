@@ -20,19 +20,17 @@ In signal processing some tools are introduced for various reasons and to assist
 
 Their definitions are given as:
 
-Upsampling: 
+#### Upsampling: 
 
 <img src="https://i.upmath.me/svg/x_i%5Bn%5D%20%3D%20x(nT%2FL)" alt="x_i[n] = x(nT/L)" />
 
-Downsampling:
+#### Downsampling:
 
 <img src="https://i.upmath.me/svg/x_d%5Bn%5D%20%3D%20x(nMT)" alt="x_d[n] = x(nMT)" />
 
-Interpolating: 
+#### Interpolating: 
 
 We design a system using upsampling, such is given as:
-
-
 
 <img src="https://i.upmath.me/svg/%5Cusetikzlibrary%7Barrows%7D%0A%5Cbegin%7Bdocument%7D%0A%5Cpagestyle%7Bempty%7D%0A%5Ctikzstyle%7Bint%7D%3D%5Bdraw%2C%20fill%3Dgray!8%2C%20minimum%20size%3D5em%5D%0A%5Ctikzstyle%7Binit%7D%20%3D%20%5Bedge%3D%7Bto-%2Cthin%2Cblack%7D%5D%0A%5Cbegin%7Btikzpicture%7D%5Bnode%20distance%3D5.5cm%2Cauto%2C%3E%3Dlatex'%5D%0A%20%20%20%20%5Cnode%20%5Bint%5D%20(a)%20%7B%24%5Cuparrow%20L%24%7D%3B%0A%20%20%20%20%5Cnode%20(b)%20%5Bleft%20of%3Da%2Cnode%20distance%3D2cm%2C%20coordinate%5D%20%7Ba%7D%3B%0A%20%20%20%20%5Cnode%20%5Bint%5D%20(c)%20%5Bright%20of%3Da%5D%20%7BL.P.F.%20%2C%20%24Gain%3DL%2C%20%5Comega_%7Bco%7D%3D%5Cpi%2FL%24%7D%3B%0A%20%20%20%20%5Cnode%20%5Bcoordinate%5D%20(end)%20%5Bright%20of%3Dc%2C%20node%20distance%3D4.5cm%5D%7B%7D%3B%0A%20%20%20%20%5Cpath%5B-%3E%5D%20(b)%20edge%20node%20%7B%24x%5Bn%5D%24%7D%20(a)%3B%0A%20%20%20%20%5Cpath%5B-%3E%5D%20(a)%20edge%20node%20%7B%24x_e%5Bn%5D%24%7D%20(c)%3B%0A%20%20%20%20%5Cdraw%5B-%3E%5D%20(c)%20edge%20node%20%7B%24x_i%5Bn%5D%24%7D%20(end)%20%3B%0A%5Cend%7Btikzpicture%7D%0A%5Cend%7Bdocument%7D%0A" alt="\usetikzlibrary{arrows}
 \begin{document}
@@ -51,7 +49,7 @@ We design a system using upsampling, such is given as:
 \end{document}
 " />
 
-Decimating:
+#### Decimating:
 
 We design a system using downsampling, given by:
 
@@ -71,6 +69,10 @@ We design a system using downsampling, given by:
 \end{tikzpicture}
 \end{document}
 " />
+
+
+
+
 
 Now let's take an <em>e.g.</em>
 
