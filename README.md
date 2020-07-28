@@ -84,7 +84,7 @@ That can be written as:
 
 [MATLAB]: remark it was developed using of the MATLAB Signal Processing Toolbox
 
-![](MATLAB/Graphs/matlab_full.PNG)
+![](MATLAB/Graphs/matlab_full.jpg)
 
 [Python]: remark it was developed using numpy, matplotlib and scipy libraries
 
